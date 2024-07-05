@@ -1,9 +1,16 @@
+import React from 'react';
 import './App.css';
+import QuoteCard from './components/quoteCard';
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to my Quote app</h1>
+      <header className="App-header">
+        <h1>Random Ron Swanson Quotes</h1>
+      </header>
+      <main>
+        <QuoteCard />
+      </main>
     </div>
   );
 }
